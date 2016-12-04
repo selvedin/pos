@@ -1,0 +1,2 @@
+<div style="text-align: center;"><a href="<?= Yii::$app->urlManager->createUrl('products/index')?>" class="btn btn-info btn-large" style="width:120px;height: 120px;"><span class="fa fa-4x fa-list"></span><br/><span style="font-weight: bolder;font-size: 18px;">PRODUCTS</span><a></div>
+	   
