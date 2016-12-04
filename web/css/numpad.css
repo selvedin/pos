@@ -1,0 +1,65 @@
+#numcontainer {
+    position: fixed;
+    display: none;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-top: 40px;
+    width: 320px;
+    height: 440px;
+    position: relative;
+    border: 1px solid #eee;
+    margin-top: 20px;
+    z-index: 1000;
+}
+
+#numcontainer input.input-number {
+    font-size: 31px;
+    padding: 3px 10px;
+    border: 0;
+    border-bottom: 2px solid #3498db;
+    margin: 0 10px;
+    width: 75%;
+    outline: 0;
+    text-align: right;
+    border-radius: 0;
+    color: #3498db;
+}
+
+    ::-webkit-input-placeholder { color: #ccc; }
+    :-moz-placeholder { color: #ccc; }
+    ::-moz-placeholder { color: #ccc; }
+    :-ms-input-placeholder { color: #ccc; }
+
+#numcontainer .numpad { 
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 0;
+    width: 320px;
+}
+
+#numcontainer .numpad li {
+    font-size: 32px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    height: 65px;
+    padding-top: 15px;
+    width: 33.33%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#numcontainer span.fa-check{
+    width:40px;
+    height:40px;
+    text-align: center;
+    color:green;
+    padding-top:5px; 
+}

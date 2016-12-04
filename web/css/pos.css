@@ -1,0 +1,63 @@
+div.pos-form{position: absolute;top:60px;width: 98%;height: 90%;}
+div.pos-form div.left{width: 39%;float:left;}
+div.pos-form div.right{width: 60%;float:right;}
+div.pos-form div.part{background-color: #303E47;border-radius: 2px;margin:0px;padding: 5px;height: 99%;}
+div.btns-main a.btn{background-color: #4F5062;color:#eee;height:35px;min-width: 50px;padding:4px 10px;margin:0px 3px;border-radius: 3px;border:none;border-bottom: 3px solid #232B36;}
+div.btns-main a.btn:hover{background-color: #232B36;color:#eee;border-bottom: 3px solid #4F5062;}
+div.btns-main a.btn.active{background-color: #2EB9D8;color:#eee;border-bottom: 3px solid #D76857;}
+div.pos-form div.part div.sepparator{width:98%;margin-left:1%;margin-right: 1%;margin-top:5px;height: 10px;background-color: #222D33;}
+div.item-search, div.client-search{width:98%;margin-left:1%;margin-right: 1%;margin-top:5px;height: 40px;background-color: #F5F5F5;border-radius: 5px;}
+div.client-search{background: none;}
+div.pos-bc{margin-top:3px;}
+div.pos-bc .b-crumb {margin-left:-28px;list-style: none;overflow: hidden; font-size: 14px;}
+div.pos-bc .b-crumb li {float: left;} 
+div.pos-bc .b-crumb li a {color: white;text-decoration: none; padding: 10px 0 10px 45px;background: brown; background: hsla(224, 13%, 34%,1); position: relative; display: block;float: left;}
+div.pos-bc .b-crumb li a:after {content: " ";display: block;width: 0;height: 0;border-top: 50px solid transparent;border-bottom: 50px solid transparent;border-left: 30px solid hsla(224, 13%, 34%,1);position: absolute;top: 50%;margin-top: -50px;left: 100%;z-index: 2; }
+div.pos-bc .b-crumb li a:before {content: " ";display: block;width: 0;height: 0;border-top: 50px solid transparent;border-bottom: 50px solid transparent;border-left: 30px solid white;position: absolute;top: 50%;margin-top: -50px;margin-left: 1px;left: 100%;z-index: 1; }
+div.pos-bc .b-crumb li:first-child a {padding-left: 10px;}
+div.pos-bc .b-crumb li:nth-child(2) a       { background:        hsla(224, 13%, 44%,1); }
+div.pos-bc .b-crumb li:nth-child(2) a:after { border-left-color: hsla(224, 13%, 44%,1); }
+div.pos-bc .b-crumb li:nth-child(3) a       { background:        hsla(224, 13%, 54%,1); }
+div.pos-bc .b-crumb li:nth-child(3) a:after { border-left-color: hsla(224, 13%, 54%,1); }
+div.pos-bc .b-crumb li:nth-child(4) a       { background:        hsla(224, 13%,65%,1); }
+div.pos-bc .b-crumb li:nth-child(4) a:after { border-left-color: hsla(224, 13%,65%,1); }
+div.pos-bc .b-crumb li:nth-child(5) a       { background:        hsla(224, 13%,75%,1); }
+div.pos-bc .b-crumb li:nth-child(5) a:after { border-left-color: hsla(224, 13%,75%,1); }
+div.pos-bc .b-crumb li a:hover { background: hsla(224, 13%, 25%,1); }
+div.pos-bc .b-crumb li a:hover:after { border-left-color: hsla(224, 13%, 25%,1) !important; }
+div.pos-form div.part div.item-search a{width:4.5%;padding-top:3px;color:#899297;font-weight: bolder;}
+div.pos-form div.part div.item-search input{width:95%;margin:2px;height: 36px;background-color: #435059;color:#899297;border:none;border-top-left-radius: 5px;border-bottom-left-radius: 5px;padding:5px;}
+div.pos-form div.part div.client-search input{width:100%;margin:2px;height: 36px;background-color: #435059;color:#899297;border:none;border-radius: 5px;padding:5px;}
+div.pos-form div.part div.client-search input:focus{border:1px solid #6DACDF;box-shadow: 0 0 4px 1px #6DACDF;}
+div.pos-form div.part div.categories{margin-top:20px;text-align:center;height:30%;}
+div.pos-form div.part div.categories div.a-btn{display: inline-block;background-color: rgba(128,128,128,0.5);width: 120px;height: 120px;margin:5px;border-radius: 2px;color:#eee;}
+div.pos-form div.part div.categories div.a-btn:hover{border:1px solid #6DACDF;box-shadow: 0 0 4px 1px #6DACDF;}
+div.pos-form div.part div.categories div.a-btn img{border-radius: 2px;width:100%;height: 100%;opacity: 0.5;}
+div.pos-form div.part div.categories div.a-btn a{position: relative;top:-120px;width:100%;height: 100%;font-weight: bolder;border-radius: 2px;line-height:5em;color:#eee;}
+div.pos-form div.products{position: absolute;bottom:15px;height: 45%;width: 59.5%;background-color: #435059;color:#eee;overflow-y:scroll; }
+div.pos-form div.products table tbody tr{cursor: pointer;}
+div.client-title {margin-top:5px;}
+div.client-title h2{display: inline-block;color:#eee;margin:5px 5px 5px 10px;width:48%;}
+div.pos-form div.part div.client-title input{display: inline-block;width:48%;height: 36px;background-color: #435059;color:#899297;border:none;border-radius: 5px;padding:5px;}
+div.pos-form div.part div.client-title input:focus{border:1px solid #6DACDF;box-shadow: 0 0 4px 1px #6DACDF;}
+div.pos-form div.part div.products-list,div.pos-form div.part div.summary-list{width:98%;margin-left:1%;margin-right:1%;margin-top:10px;background-color: #7F888F;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;}
+div.pos-form div.part div.products-list{min-height: 100px;max-height: 400px;}
+div.pos-form div.part div.products-list table{background: none;}
+div.pos-form div.part div.products-list div.table-container{max-height: 350px;overflow-x: hidden;overflow-y: scroll;}
+div.products-list div.table-container table tbody tr td i.fa-remove{cursor: pointer;}
+
+div.pos-form div.part div.products-list table{color:#eee;}
+div.pos-form div.part div.summary-list table tr td{padding:2px 2px 2px 10px;}
+div.pos-form div.part div.summary-list table tr td{text-align: right;}
+div.pos-form div.part div.summary-list table tr td:first-child{text-align: left;}
+div.pos-form div.part div.summary-list table tr:last-child td:last-child{font-size: 14px;color:lightgreen;font-weight: bold;}
+
+div.pos-form div.part div.summary-list{background-color: #435059;height:auto;color:#eee;margin-top:20px;}
+div.pos-form div.part div.products-list table thead th{background-color: #222D33;color:#eee;text-transform: uppercase;}
+
+div.payment-btns{text-align: center;}
+div.payment-btns a{width:45%;border-radius:0;}
+div.payment-btns a:first-child{margin-right: 20px;}
+div.payment-btns a:nth-child(2){margin-left: 20px;}
+input.blank-input{width:100px;border:none;background:none;text-align: right;}
+
